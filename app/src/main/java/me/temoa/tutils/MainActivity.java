@@ -1,16 +1,11 @@
 package me.temoa.tutils;
 
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
-import java.util.Map;
-
-import me.temoa.baseutils.KeyboardUtils;
-import me.temoa.baseutils.encrypt.RSA;
+import me.temoa.baseutils.ApplicationUtils;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,12 +16,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
-        if (view.getTag() == null || (boolean) view.getTag()) {
-            KeyboardUtils.showSoftInput(view);
-            view.setTag(false);
-        } else {
-            KeyboardUtils.hideSoftInput(view);
-            view.setTag(true);
-        }
+
     }
 }
