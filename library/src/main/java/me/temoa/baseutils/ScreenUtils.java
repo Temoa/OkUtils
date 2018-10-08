@@ -7,6 +7,7 @@ import android.content.res.Resources;
  * on 2018/3/22.
  */
 
+@SuppressWarnings({"WeakerAccess", "unused"}) // public api
 public class ScreenUtils {
 
     public static int getScreenWidth() {

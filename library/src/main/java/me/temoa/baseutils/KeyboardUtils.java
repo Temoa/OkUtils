@@ -9,6 +9,7 @@ import android.view.inputmethod.InputMethodManager;
  * on 2018/3/21.
  */
 
+@SuppressWarnings({"WeakerAccess", "unused"}) // public api
 public class KeyboardUtils {
 
     public static void showSoftInput(View view) {

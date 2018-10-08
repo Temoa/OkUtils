@@ -12,6 +12,7 @@ import java.io.InputStream;
  * on 2018/3/23.
  */
 
+@SuppressWarnings({"WeakerAccess", "unused"}) // public api
 public class StreamUtils {
 
     @NonNull

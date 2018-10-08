@@ -13,6 +13,7 @@ import java.util.List;
  * on 2018/3/23.
  */
 
+@SuppressWarnings({"WeakerAccess", "unused"}) // public api
 public class ApplicationUtils {
 
     public static boolean isMainThread() {

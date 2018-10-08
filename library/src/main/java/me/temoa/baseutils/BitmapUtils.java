@@ -23,6 +23,7 @@ import java.io.IOException;
  * Created by lai
  * on 2018/3/19.
  */
+
 @SuppressWarnings({"unused", "WeakerAccess"})
 public class BitmapUtils {
 

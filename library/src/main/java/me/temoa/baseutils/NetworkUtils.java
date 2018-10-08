@@ -14,6 +14,7 @@ import android.telephony.TelephonyManager;
  * on 2018/3/22.
  */
 
+@SuppressWarnings({"WeakerAccess", "unused"}) // public api
 public class NetworkUtils {
 
     public static void openWifiSetting(Context context) {
@@ -107,8 +108,7 @@ public class NetworkUtils {
         ConnectivityManager connectivityManager
                 = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         if (connectivityManager != null) {
-            NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
-            return networkInfo;
+            return connectivityManager.getActiveNetworkInfo();
         }
         return null;
     }

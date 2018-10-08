@@ -7,6 +7,7 @@ import java.util.Map;
  * Created by lai
  * on 2018/3/19.
  */
+
 @SuppressWarnings({"unused", "WeakerAccess"})
 public class CollectionUtils {
 

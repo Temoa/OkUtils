@@ -18,6 +18,7 @@ import java.nio.channels.FileChannel;
  * on 2018/3/19.
  */
 
+@SuppressWarnings({"WeakerAccess", "unused"}) // public api
 public class FileUtils {
 
     public static boolean copyFile(final File sourceFile, final File targetFile) {
